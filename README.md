@@ -5,6 +5,8 @@
 #### Files
 * CodeBook.md a code book that describes the variables, the data, and any transformations or work
 
+* Preparation.R - Code to download the data set
+
 * run_analysis.R performs the data preparation and then followed by the 5 steps required as described in the course project’s definition:
   + Merges the training and the test sets to create one data set.
   + Extracts only the measurements on the mean and standard deviation for each measurement.
