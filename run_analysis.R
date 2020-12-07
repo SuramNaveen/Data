@@ -15,7 +15,7 @@ merged_data <- cbind(subject, Y, X)
 
 tidydata <- merged_data %>% select(subject, code, contains("mean"), contains("std"))
 
-tidydata$code <- activities[tidydata$code, 2]
+tidydata$code <- activities_labels[tidydata$code, 2]
 
 names(tidydata)[2] = "activity"
 names(tidydata)<-gsub("Acc", "Accelerometer", names(tidydata))
