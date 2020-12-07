@@ -1,3 +1,4 @@
+#Load the libraries and download the file using Preparation.R file
 
 features <- read.table("UCI HAR Dataset/features.txt", col.names = c("n","functions"))
 activities_labels <- read.table("UCI HAR Dataset/activity_labels.txt", col.names = c("code", "activity"))

@@ -7,7 +7,6 @@ if (!file.exists(filename)){
   download.file(fileURL, filename, method="curl")
 }  
 
-# Checking if folder exists
 if (!file.exists("UCI HAR Dataset")) { 
   unzip(filename) 
 }
